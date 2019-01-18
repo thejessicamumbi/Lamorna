@@ -1,0 +1,307 @@
+/*
+Theme Name: Lamorna Theme
+Theme URI: http://www.lamornadesigns.com
+Author: Jessica Mumbi
+Author URI: http://www.jessicamumbi.com
+Description:
+Version: 1.0
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Tinos);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+/*------------------------------------ global styles ------------------------------------ */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'EB Garamond', sans-serif;
+  background: #ffffff;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  font-family: 'Poiret One';
+}
+
+#logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section ul li {
+  font-size: 1.8rem;
+  letter-spacing: .5px;
+  padding-bottom: 10px;
+}
+
+section .commit {
+  font-size: 12px;
+}
+
+section .commit a {
+  text-decoration: underline;
+}
+
+section .form-horizontal {
+  border-radius: 0px;
+}
+
+section .btn {
+  padding: 10px 40px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+section .btn:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+section h4 {
+  padding: 20px 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.3rem;
+}
+
+section h5 {
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+}
+
+section p {
+  letter-spacing: .5px;
+  padding-bottom: 20px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #777;
+}
+
+section p a {
+  text-decoration: none;
+  color: #121435;
+  cursor: pointer;
+}
+
+section p a:hover {
+  text-decoration: none;
+  color: #121435;
+}
+
+/*------------------------------------ header ------------------------------------ */
+header {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  background: #f4f4f4;
+  padding-top: 10px;
+}
+
+header #social-icons {
+  margin-bottom: 0;
+  float: left;
+  position: relative;
+  text-align: left;
+  padding-left: 0;
+}
+
+header #social-icons li {
+  list-style-type: none;
+  float: left;
+  padding-right: 15px;
+}
+
+header #social-icons li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header #hello {
+  text-align: center;
+}
+
+header #cart li {
+  list-style-type: none;
+  float: left;
+  padding-left: 10px;
+}
+
+header #cart li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*------------------------------------ Navbar ------------------------------------ */
+.navbar-default {
+  background: #fff;
+  border-top-color: #ddd;
+  border-bottom-color: #ddd;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default a:focus, .navbar-default a:active {
+  color: #121435;
+  transition: color 0.2s;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #303841;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: .5px;
+}
+
+.navbar-default .dropdown-menu {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.navbar-default .dropdown-menu li a {
+  color: #fff;
+}
+
+.navbar-default .dropdown-menu li a a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/*------------------------------------ Newsletter ------------------------------------ */
+#newsoffers {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.info form .form-horizontal .btn {
+  padding: 15px 25px;
+}
+
+/*------------------------------------ Newsletter ------------------------------------ */
+.accordion-panel {
+  display: none;
+  margin-left: 14px;
+}
+
+/**********  ACCORDION **********/
+.accordion, .menu {
+  color: #666;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.accordion li {
+  padding: 8px;
+  list-style-type: none;
+  border: none;
+}
+
+.accordion-control {
+  background-color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: .5px;
+  color: #000;
+  display: block;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  margin: 0;
+  border: none;
+  text-align: left;
+}
+
+.accordion-panel {
+  display: none;
+  font-size: 1.8rem;
+  color: #777;
+  letter-spacing: .5px;
+}
+
+.accordion-panel p {
+  margin: 20px;
+}
+
+.accordion-panel img {
+  display: block;
+  clear: left;
+}
+
+/*------------------------------------ footer ------------------------------------ */
+#footer {
+  background-color: #1F1E1E;
+  min-height: 230px;
+  overflow: hidden;
+  width: 100%;
+  padding: 0.9375rem;
+}
+
+#footer .menu {
+  color: #E6E6E6;
+  padding: 0;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+#footer .menu a {
+  color: #D2D2D2;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+#footer .menu li {
+  list-style-type: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#footer .menu ul {
+  padding-left: 0;
+}
+
+#footer .menu h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.darkBottom .copyright {
+  background-color: #1F1E1E;
+  color: #E6E6E6;
+  margin-bottom: 0;
+  padding: 30px 0;
+  min-height: 50px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
